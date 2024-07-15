@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bannerVerde {
+    background-color:  rgba(28, 209, 176, 1);
+    height: 38px;
+    width: 1024px;
+}
+.tituloHerores {
+    background-color: rgba(0, 102, 159, 1);
+    width: 965px;
+    font-size: 40px;
+    text-align: left;
+    box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 18px 18px 18px 38px;
+}
+.contenedorPrincipal{
+    width: 1024px;
+    height:304;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenerdorSuperHeroes {
+    width: 1004px;
+    height: 530px;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-center;
+    justify-content: space-evenly; 
+    align-items: center;
+    border: 130px 0 130px o;
+
+}
+.Batman, .harleyQuinn, .superMan { /* contiene lo de Batman*/
+    width: 300px;
+    height: 529px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px 16px 0px 0px;
+}
+
+
+.imagenFondoBatman, .imagenFondoHarley, .imagenFondoSuper{
+    width: 300px;
+    height: 194px;
+}
+
+.imagenFondoBatman img, .imagenFondoHarley img, .imagenFondoSuper img {
+    max-width: 100%; /* La imagen no superará el ancho del div */
+    border-radius: 16px 16px 0px 0px;
+    max-height: 100%; /* La imagen no superará la altura del div */
+}
+
+.vectorCorazon1{
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    color: red;
+    
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 50%; /* Hace que el elemento sea un círculo */
+    overflow: hidden; /* Oculta cualquier contenido fuera del círculo */
+    position: relative;
+    left: 80px;
+    bottom: 70px;
+}
+    
+.circle img {
+    width: 100%; /* Ajusta la imagen al tamaño del círculo */
+    height: auto; Mantiene la proporción de la imagen 
+    display: block; Evita el espacio extra debajo de la imagen */
+}
+h3{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.16px;
+    text-align: center;
+    padding: 5px, 5px, 5px, 5px;
+}
+.textoBatman, .textoHarley, .textoSuper{ 
+    width: 300px;
+    height: 336px;
+    background: rgba(243, 243, 243, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+
+.parrafoBatman, .parrafoHarley, .parrafoSuper{
+    width: 267px;
+    height: 113px;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: left;
+    
+}
+.verBatman {
+    width: 128.78px;
+    height: 48.52px;
+    background: rgba(0, 102, 159, 1);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+    text-align: center;
+    color: rgba(243, 243, 243, 1);
+}
+
+.vectorCorazon2{
+    position: absolute;
+    top:130px;
+    left: 370px;
+    color: red;
+    
+}
+.verHarley {
+    width: 128.78px;
+    height: 48.52px;
+    background: rgba(0, 102, 159, 1);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+    text-align: center;
+    color: rgba(243, 243, 243, 1);
+}
+.vectorCorazon3{
+    position: absolute;
+    top: 130px;
+    right: 900px;
+    color: red;
+    
+}
+
+.verSuper {
+    width: 128.78px;
+    height: 48.52px;
+    background: rgba(0, 102, 159, 1);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+    color: rgba(243, 243, 243, 1);
+
+}
+.footer {
+    width: 1024px;
+    height: 30px;
+    top: 972px;
+    background: rgba(0, 102, 159, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 15px 0 0 15px;
+    color: rgba(243, 243, 243, 1);
+}
